@@ -11,11 +11,13 @@ This project demonstrates how to deploy a Spring Boot application on an AWS EKS 
 - **Kubernetes** – Container orchestration
 
 ## 📁 Project Structure
-spring-boot-app-deploy-using-helm/
-├── mychart/                  
-│   ├── Chart.yaml
-│   ├── templates/
-│   └── values.yaml
-├── src/                      
-├── Jenkinsfile               
-└── Dockerfile               
+   spring-boot-app-deploy-using-helm/
+   ├── mychart/                  
+   │   ├── Chart.yaml
+   │   ├── templates/
+   │   └── values.yaml
+   ├── src/                      
+   ├── Jenkinsfile               
+   └── Dockerfile  
+   
+## For deployment I am using jenkins File 
