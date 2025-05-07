@@ -66,6 +66,9 @@ kubectl get pods -n helm-deployment
 ```
 ## Adding Scrrenshots of my RESULTS  
 First Relese  
+![image alt](https://github.com/aditya12-g/spring-boot-app-deploy-using-helm/blob/main/Screenshot%20(62).png?raw=true)  
+Second Relese after changing the code  
+![image alt]()
 
 
 
