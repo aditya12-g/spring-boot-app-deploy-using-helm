@@ -47,8 +47,9 @@ spring-boot-app-deploy-using-helm/
    eksctl  
    Helm  
    Docker  
-   AWS CLI
-
+   AWS CLI  
+3 I am providing you whole jenkins file in Folder FILENAME Jenkinsfile  
+  simpaly you have to copy and paste in pipeline script at jenkins make sure you install all the required plugins in jenkins such as docker,dockerpipeline, maven  
 
 
  
