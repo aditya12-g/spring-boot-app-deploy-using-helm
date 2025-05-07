@@ -68,7 +68,10 @@ kubectl get pods -n helm-deployment
 First Relese  
 ![image alt](https://github.com/aditya12-g/spring-boot-app-deploy-using-helm/blob/main/Screenshot%20(62).png?raw=true)  
 Second Relese after changing the code  
+![image alt](https://github.com/aditya12-g/spring-boot-app-deploy-using-helm/blob/main/Screenshot%20(63).png?raw=true)  
+While Rollbacking the previous release  
 ![image alt]()
+
 
 
 
