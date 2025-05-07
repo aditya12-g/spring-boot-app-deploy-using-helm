@@ -50,6 +50,23 @@ spring-boot-app-deploy-using-helm/
    AWS CLI  
 3 I am providing you whole jenkins file in Folder FILENAME Jenkinsfile  
   simpaly you have to copy and paste in pipeline script at jenkins make sure you install all the required plugins in jenkins such as docker,dockerpipeline, maven  
+## Now How to rollback to the previous version  
+Check Helm release history:  
+```bash
+helm history first -n helm-deployment
+```
+Roll back to a previous revision (e.g., revision 1):  
+```bash
+helm rollback first 1 -n helm-deployment
+```
+Confirm the rollback:  
+```bash
+helm list -n helm-deployment
+kubectl get pods -n helm-deployment
+```
+
+
+
 
 
  
