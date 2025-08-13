@@ -14,11 +14,10 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 211223789150.dkr.ecr.us-east-1.amazonaws.com/coachak/springboot-app
+        image: adityag14/springboot-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
-# service type loadbalancer       
 ---
 apiVersion: v1
 kind: Service
@@ -36,3 +35,4 @@ spec:
   type: LoadBalancer
   selector:
     app: springboot-app
+
